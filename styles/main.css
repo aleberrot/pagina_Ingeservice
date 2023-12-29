@@ -1,0 +1,160 @@
+*{
+    box-sizing: border-box;
+    font-family: 'Montserrat', sans-serif;
+    margin: 0;
+    padding: 0;
+    list-style: none;
+}
+
+
+body{
+    background-color: whitesmoke;
+}
+
+div p{
+    text-align: justify;
+}
+
+div h2{
+    color: #E7AC37;
+    font-weight: bold;
+}
+
+div h3{
+    color: #E7AC37;
+    font-weight: bold;
+}
+
+div h1{
+    color: #E7AC37;
+    font-weight: bold;
+}
+img{
+    border-radius: 1%;
+}
+
+svg{
+    margin-top: 2rem;
+}
+
+
+.col-4{
+    margin: 5rem;
+}
+
+.col-4 p{
+    margin-top: 1rem;
+    font-weight: bold;
+    font-size: 20px;
+    
+}
+
+a.nav-link{
+      color: #E7AC37;
+      font-weight: bold;
+}
+
+.navbar{
+    background-color: whitesmoke;
+}
+
+.carousel{
+    margin-bottom: 5rem;
+}
+
+.carousel-item{
+    height: 680px;
+    background-color: antiquewhite;
+}
+
+.overlay-img{
+    position: absolute;
+    top: 0;
+    right: 0;
+    left: 0;
+    bottom: 0;
+    background-position: center;
+    background-size: cover;
+    opacity: 0.8;
+}
+
+
+.contenedor{
+    background-color:  #E7AC37 ; 
+    border-radius: 5%; 
+    padding: 5vh;
+    margin: 2rem;
+}
+
+.contenedor h1{
+     padding-left: 1.5rem;
+    color: whitesmoke;
+}
+
+.texto-contenedor{
+    padding: 1rem; 
+    font-size: large;
+}
+
+.carousel-caption h1{
+    font-size: 5rem;
+    color: #FFFF;
+
+}
+
+#top-section{
+    margin-bottom: 5rem;
+}
+
+#procura .col-md-2{
+    max-width: 28rem;
+    max-height: 20rem;
+    margin: 2rem;
+}
+
+#procura p{
+    margin: 1rem -1em -1em 0;
+    word-spacing: 0.01rem;
+    line-height: 2em;
+    font-size: small;
+    text-align: start;
+}
+
+#herramientas-equipos{
+    margin-top: 5rem;
+}
+
+#herramientas-equipos .col-2{
+    margin: 0 1rem ;
+    width: 10rem;
+}
+
+#herramientas-equipos h1{
+    background-color: #E7AC37;
+    color: whitesmoke;
+    border-radius: 50%;
+    padding: 1.5rem;
+    width: 100px;
+    height: 100px;
+    margin-bottom: 2.5rem;
+
+}
+
+#herramientas-equipos p{
+    margin: 1rem -1em -1em 0;
+    word-spacing: 0.01rem;
+    line-height: 2em;
+    font-size: smaller;
+    text-align: start;
+
+}
+
+
+#myCarousel{
+    border-top: #E7AC37 10px solid;
+}
+
+#procura img{
+    height: 140;
+    width: 180;
+}
